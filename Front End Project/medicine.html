@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+.flex-container {
+ display: flex;
+width: 100%;
+margin-right:10%;
+margin-left:5%;
+padding: 10px;
+background-color: #f1f1f1;
+flex-wrap: wrap;
+ 
+}
+
+.flex-container > div {
+  background-color: #80b3ff;
+  margin: 5px;
+  padding: 10px;
+  
+}
+.img
+{
+  height: 30rem;
+  width: 119rem;
+}
+.button {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 58px;
+  cursor: pointer;
+}
+
+.button {background-color: #4CAF50;} 
+</style>
+<head>
+    <link rel="stylesheet" href="nav.css">
+   <div class="Header">
+    <ul>
+        <li><a class="active" style="color:red;font-family:Cursive;"><b>Medicine Guide</a></li>
+        
+       
+        <li style="float:right"><a href="Login.html">LOGOUT</a></li>
+        <li style="float:right"><a href="Home.html">HOME</a></li>
+        <li style="float:right"><a href="Login.html">LOGIN </a></li>
+        <li style="float:right"><a href="Register.html">REGISTER</a></li>
+        <li style="float:right"><a href="medicine.html">MEDICINE SHOPPING </a></li>
+        <li style="float:right"><a href="myorder.html">MY ORDERS</a></li>
+        <li style="float:right"><a href="about.html">ABOUT US</a></li>
+      </ul>
+
+  </div>
+</head>
+<body>
+<div><img src="medical_store.png" class="img"alt="medical in shop"></div>
+<div class="flex-container">
+  <div><img src="paracetamol-tablets.jpg" alt="paracetamol" height="200" width="250"><div style="text-align: center;">Paracetamol </div> 
+      <div style="text-align: center;">Price: 120 Rs </div>
+      <button  class="button" id="b1"  onclick="myFunction()" type="button">Add to Cart</button> 
+</div>
+  <div><img src="oflox-oz-tablet.jpg" alt="Cipla Ofloxacin Ornidazole" height="200" width="250"><div style="text-align: center;">Cipla Ofloxacin Ornidazole Tablets</div> 
+  <div style="text-align: center;">Price: 420 Rs</div>
+   <button  class="button"    onclick="myFunction()" id="b2" type="button">Add to Cart</button> 
+</div>
+  <div><img src="d-alpha.jpg" alt="Alfa-D Tablets 0.5mcg" height="200" width="250">
+    <div style="text-align: center;">Alfa-D Tablets 0.5mcg</div>
+      <div style="text-align: center;">Price: 820 Rs</div>
+       <button  class="button"   onclick="myFunction()"  id="b3" type="button">Add to Cart</button> 
+  </div>
+  <div><img src="solvin_cough_syrup.jpg" alt="Solvin Sugar Free Cough Syrup" height="200" width="250">
+    <div style="text-align: center;">Solvin Sugar Free Cough Syrup 100ml</div>
+      <div style="text-align: center;">Price: 620 Rs</div>
+       <button  class="button"    onclick="myFunction()" id="b4" type="button">Add to Cart</button> 
+  </div>
+  <div><img src="108-Stondab.jpg" alt="Dabur Stondab Syrup " height="200" width="250">
+    <div style="text-align: center;">Dabur Stondab Syrup </div>
+      <div style="text-align: center;">Price: 420 Rs</div>
+       <button  class="button"   onclick="myFunction()" id="b5" type="button">Add to Cart</button> 
+  </div>
+   <div><img src="Aryaton-Syrup.jpg" alt="Ayurvedic Medicine Aryaton " height="200" width="250">
+    <div style="text-align: center;">Ayurvedic Medicine Aryaton Syrup</div>
+      <div style="text-align: center;">Price: 520 Rs</div>
+       <button  class="button"   onclick="myFunction()" id="b6" type="button">Add to Cart</button> 
+  </div>
+
+
+
+
+  <div><img src="amitri.jpg" alt="Amitriptyline " height="200" width="250">
+    <div style="text-align: center;">Amitriptyline 10 mg tablets </div>
+      <div style="text-align: center;">Price: 120 Rs</div>
+       <button  class="button"   onclick="myFunction()" id="b7" type="button">Add to Cart</button> 
+  </div>
+  <div><img src="Buspirone.jpg.jpg" alt="Buspar" height="200" width="250">
+    <div style="text-align: center;">Buspar 10 mg Tablets</div>
+      <div style="text-align: center;">Price: 180 Rs</div>
+       <button  class="button"   onclick="myFunction()"  id="b8" type="button">Add to Cart</button> 
+  </div>
+  <div><img src="vicks.jpg" alt="Vicks " height="200" width="250">
+    <div style="text-align: center;">Vicks</div>
+      <div style="text-align: center;">Price: 120 Rs</div>
+       <button  class="button"  onclick="myFunction()"  id="b9" type="button">Add to Cart</button> 
+  </div>
+  <div><img src="baby-powder.jpg" alt="Johnson's baby" height="200" width="250">
+    <div style="text-align: center;">Johnson's baby powder</div>
+      <div style="text-align: center;">Price: 280 Rs</div>
+       <button  class="button"   onclick="myFunction()" id="b10" type="button">Add to Cart</button> 
+  </div>
+  <div><img src="Pain-Relief-Roll-On.jpg" alt="Relaxes Brain Pain" height="200" width="250">
+    <div style="text-align: center;">Relaxes Brain Pain Relief Roll On </div>
+      <div style="text-align: center;">Price: 320 Rs</div>
+       <button  class="button"   onclick="myFunction()"  id="b11" type="button">Add to Cart</button> 
+  </div>
+   <div><img src="pic2.png" alt="Bascopan" height="200" width="250">
+    <div style="text-align: center;">Bascopan</div>
+      <div style="text-align: center;">Price: 220 Rs</div>
+       <button  class="button"  onclick="myFunction()"  id="b12" type="button">Add to Cart</button> 
+  </div>
+</div>
+
+
+</body>
+</html>
+<script>
+function myFunction() {
+  window.open("myorder.html");
+}
+</script>

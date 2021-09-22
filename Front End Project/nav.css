@@ -1,0 +1,46 @@
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #87bdd8;
+    }
+    
+    li {
+      float: left;
+    
+    }
+    
+    li:last-child {
+      border-right: none;s
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+    
+.indented 
+{
+ padding-left: 20%;
+  padding-right: 20%;
+ left: 5%;
+right: 5%;
+ } 
+.online
+{
+   height: 80rem;
+    width: 80rem;
+    position: absolute;
+    top: 120%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
